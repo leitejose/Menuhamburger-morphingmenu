@@ -1,0 +1,22 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.wrapper{
+    background-color: rgb(221, 161, 171);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.checkbox{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    cursor: pointer;
+}
