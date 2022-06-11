@@ -1,11 +1,49 @@
 body{
-    margin: o;
+    margin: 0;
     padding: 0;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: white;
+    font-family: 'Archivo', sans-serif;
+    color: #ffffff;
 }
 .wrapper{
     height: 100vh;
     width: 100vw;
-    background-color: 45deg #214716;
+    background: linear-gradient(-45deg, #5e0878, #085078, #4ca59b, #1fa194);
+    background-size: 400% 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* animation: ; */
 }   
+h1{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+h2{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+.social-media {
+    margin-top: 1rem;
+    display: flex;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+#git {
+    max-width: 400px;
+    max-height: 400px;
+    width: 40px;
+    height: auto;
+}
+.insta{
+    max-width: 400px;
+    max-height: 400px;
+    width: 30px;
+    height: auto;
+}
+img{
+    display: flex;
+    -ms-flex-align: center;
+}
