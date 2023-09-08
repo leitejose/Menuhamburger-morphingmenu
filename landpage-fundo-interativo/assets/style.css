@@ -24,6 +24,7 @@ h1{
 h2{
     text-transform: uppercase;
     letter-spacing: 4px;
+    text-align: center;
 }
 .social-media {
     margin-top: 1rem;
@@ -31,6 +32,23 @@ h2{
 }
 a{
     padding:1rem
+}
+.links-projects{
+    margin:1rem;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.link-project{
+    text-decoration: none;
+    color:#085078;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #ffffff;
+    margin: 1rem;
+    border-radius: 1.5rem;
 }
 .git {
     max-width: 400px;
